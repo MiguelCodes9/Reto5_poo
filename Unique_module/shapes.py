@@ -50,7 +50,7 @@ class Line:
         return f"Line(length: {self._length:.2f})"
 
 #Clase madre de donde parten las demas clases 
-class Shape():
+class Shape:
   
     def __init__(self, vertices, edges, is_regular=False, inner_angles=None):
         self._is_regular = is_regular
@@ -217,3 +217,4 @@ class RectTriangle(Triangle):
         new_angles=[A_angle, B_angle,C_angle]
         self.set_inner_angles(new_angles)
         return new_angles
+
