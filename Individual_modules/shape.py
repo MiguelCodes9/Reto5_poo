@@ -1,4 +1,4 @@
-class Shape():
+class Shape:
   
     def __init__(self, vertices, edges, is_regular=False, inner_angles=None):
         self._is_regular = is_regular
@@ -39,4 +39,5 @@ class Shape():
     
     def compute_inner_angles(self):
       raise NotImplementedError("Este método debe ser implementado por la subclase.")
+
     #Clase reangulo, hereda atributos de shape
