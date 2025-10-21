@@ -40,4 +40,5 @@ class Shape:
     def compute_inner_angles(self):
       raise NotImplementedError("Este método debe ser implementado por la subclase.")
 
-    #Clase reangulo, hereda atributos de shape
+    
+
